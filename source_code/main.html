@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Product Analysis Summary</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 24px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                margin-top: 12px;
+                border: 1px solid #ddd;
+                padding: 6px;
+                background: #fff;
+            }
+            a {
+                display: inline-block;
+                margin: 8px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Product Analysis Summary</h1>
+        <h2>Downloads</h2>
+        <a href="results/cluster_summary.csv">Cluster summary CSV</a><br />
+        <a href="results/regression_metrics.csv">Regression metrics CSV</a
+        ><br />
+        <a href="results/product_with_clusters.csv"
+            >Product with clusters CSV</a
+        >
+
+        <h2>Plots</h2>
+        <h3>Elbow</h3>
+        <img src="results/elbow.png" alt="elbow" />
+        <h3>Cluster scatter</h3>
+        <img src="results/cluster_scatter.png" alt="cluster scatter" />
+        <h3>Actual vs Predicted</h3>
+        <img src="results/actual_vs_predicted.png" alt="actual vs pred" />
+        <h3>Feature importance</h3>
+        <img src="results/feature_importance.png" alt="feat imp" />
+    </body>
+</html>
